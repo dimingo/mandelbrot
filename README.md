@@ -43,3 +43,7 @@ Each of these versions appears on a different branch in this repository:
 
 The example code in this directory and its subdirectories is licensed under the
 terms of the MIT license. See [LICENSE-MIT](LICENSE-MIT) for details.
+
+
+
+![Mandelbrot set ](https://github.com/dimingo/mandelbrot/bands/image.jpg?raw=true)
