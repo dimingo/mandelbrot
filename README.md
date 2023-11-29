@@ -46,4 +46,4 @@ terms of the MIT license. See [LICENSE-MIT](LICENSE-MIT) for details.
 
 
 
-![Mandelbrot set ](https://github.com/dimingo/mandelbrot/bands/image.jpg?raw=true)
+![Mandelbrot set ](https://github.com/dimingo/mandelbrot/blob/bands/mandel.png?raw=true)
