@@ -17,13 +17,13 @@ Each of these versions appears on a different branch in this repository:
     its band, its CPU goes idle while its less fortunate brethren are still hard
     at work. This is the final version shown in the Tour.
 
-*   [Branch `task-queue`](https://github.com/ProgrammingRust/mandelbrot/tree/task-queue)
-    gets an almost perfect linear speedup from its threads. It splits
-    the plotting area up into many more bands, and then has threads draw
-    bands from a common pool until the pool is empty. When a thread
-    finishes one band, it goes back for more work. Since the bands still
-    take different amounts of time to render, the problem cited above
-    still occurs, but on a much smaller scale. This version is not shown in the book.
+  *   [Branch `task-queue`](https://github.com/ProgrammingRust/mandelbrot/tree/task-queue)
+      gets an almost perfect linear speedup from its threads. It splits
+      the plotting area up into many more bands, and then has threads draw
+      bands from a common pool until the pool is empty. When a thread
+      finishes one band, it goes back for more work. Since the bands still
+      take different amounts of time to render, the problem cited above
+      still occurs, but on a much smaller scale. This version is not shown in the book.
 
 *   [Branch `lockfree`](https://github.com/ProgrammingRust/mandelbrot/tree/lockfree)
     uses Rust's atomic types to implement a lock-free iterator type, and
